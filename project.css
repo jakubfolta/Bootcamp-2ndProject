@@ -1,19 +1,39 @@
-.main {
+.page {
     margin: 0;
     padding: 0;
 }
 
 .head {
     background-color: #313234;
+    margin: 0;
     height: 50px;
 }
 
 .menu {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.menu_item {
+    padding: 5px 5px;
+    display: inline-block;
+}
+
+.menu_link {
+    text-decoration: none;
 }
 
 .container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.container::before,
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
 }
