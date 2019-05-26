@@ -18,7 +18,7 @@
 
 .menu {
     list-style-type: none;
-    margin: 15px 0;
+    margin: 0;
     padding: 0;
     float: right;
 }
@@ -29,7 +29,7 @@
 
 .menu_link {
     text-decoration: none;
-    height: 50px;
+    line-height: 50px;
     padding: 0 20px;
     display: block;
     color: #fff;
