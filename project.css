@@ -39,14 +39,16 @@
 }
 
 .container {
-    background-color: #313234;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
+}
+
+.fixed {
+    background-color: #313234;
     position: fixed;
     left: 0;
     right: 0;
-    height: 50px;
 }
 
 .container::before,
@@ -95,10 +97,8 @@
     box-sizing: border-box;
 }
 
-.universal {
+.offer {
     margin: 50px auto;
-    width: 100%;
-    max-width: 900px;
     background-color: #fff;
     text-align: center;
 }
@@ -189,22 +189,38 @@
 
 .gallery {
     width: 100%;
-    max-width: 1200px;
-    text-align: center;
     margin: 0;
     padding: 0;
     height: 200px;
-    float: right;
+}
+
+.gallery::before,
+.gallery::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+@media (max-width: 500px) {
+    .image {
+        float: none;
+        width: 100%;
+    }
 }
 
 .image {
-    width: 100px;
     height: 100px;
+    width: 100%;
     float: left;
+    object-fit: cover;
 }
 
-.big {
-    width: 200px;
+.image_icon {
+    position: absolute;
+    left: 1px;
+    bottom: 4px;
+
+    font-size: 20px;
 }
 
 .image:hover {
