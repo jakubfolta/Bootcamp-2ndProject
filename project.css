@@ -7,7 +7,7 @@
 }
 
 .head {
-    margin: 0;
+    margin: 0 auto;
 }
 
 .container_logo {
@@ -95,7 +95,7 @@
     box-sizing: border-box;
 }
 
-.benefits {
+.universal {
     margin: 50px auto;
     width: 100%;
     max-width: 900px;
@@ -126,13 +126,12 @@
 
 }
 
-.benefits_text {
+.paragraph {
     font-size: 12px;
 }
 
 [class*="col-"] {
     min-height: 1px;
-    padding-top: 20px;
     float: left;
 }
 
@@ -184,52 +183,22 @@
     width: 100%;
 }
 
-.col-offset-1 {
-    margin-left: 8.33%;
+.heading_2 {
+    text-transform: uppercase;
 }
 
-.col-offset-2 {
-    margin-left: 16.66%;
+.gallery {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 200px;
 }
 
-.col-offset-3 {
-    margin-left: 25%;
+.image {
+    wi
 }
 
-.col-offset-4 {
-    margin-left: 33.33%;
-}
-
-.col-offset-5 {
-    margin-left: 41.66%;
-}
-
-.col-offset-6 {
-    margin-left: 50%;
-}
-
-.col-offset-7 {
-    margin-left: 58.33%;
-}
-
-.col-offset-8 {
-    margin-left: 66.66%;
-}
-
-.col-offset-9 {
-    margin-left: 75%;
-}
-
-.col-offset-10 {
-    margin-left: 83.33%;
-}
-
-.col-offset-11 {
-    margin-left: 91.66%;
-}
-
-.col-offset-0 {
-    margin-left: 0;
-}
 
 /* TODO : Set project to "finished" on github */
