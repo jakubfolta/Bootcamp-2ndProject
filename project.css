@@ -194,10 +194,21 @@
     margin: 0;
     padding: 0;
     height: 200px;
+    float: right;
 }
 
 .image {
-    wi
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.big {
+    width: 200px;
+}
+
+.image:hover {
+
 }
 
 
