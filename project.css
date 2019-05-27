@@ -91,19 +91,48 @@
     display: table;
 }
 
-.row {
+* {
+    box-sizing: border-box;
+}
+
+.benefits {
+    margin: 50px auto;
+    width: 100%;
+    max-width: 900px;
+    background-color: #fff;
     text-align: center;
-    margin: 0 auto;
-    padding: 10px;
+}
+
+[class*="fa"] {
+    font-size: 60px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.tablet {
+    background-color: #2f9ee1;
+}
+
+.heading_4 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.mid_heading {
+    color: #2f9ee1;
+    margin-bottom: 0;
+
+}
+
+.benefits_text {
+    font-size: 12px;
 }
 
 [class*="col-"] {
-    display: inline-block;
-    box-sizing: border-box;
-    max-width: 100%;
-    width: 700px;
-    border: 2px solid red;
-    padding: 10px;
+    min-height: 1px;
+    padding-top: 20px;
     float: left;
 }
 
@@ -155,5 +184,52 @@
     width: 100%;
 }
 
+.col-offset-1 {
+    margin-left: 8.33%;
+}
+
+.col-offset-2 {
+    margin-left: 16.66%;
+}
+
+.col-offset-3 {
+    margin-left: 25%;
+}
+
+.col-offset-4 {
+    margin-left: 33.33%;
+}
+
+.col-offset-5 {
+    margin-left: 41.66%;
+}
+
+.col-offset-6 {
+    margin-left: 50%;
+}
+
+.col-offset-7 {
+    margin-left: 58.33%;
+}
+
+.col-offset-8 {
+    margin-left: 66.66%;
+}
+
+.col-offset-9 {
+    margin-left: 75%;
+}
+
+.col-offset-10 {
+    margin-left: 83.33%;
+}
+
+.col-offset-11 {
+    margin-left: 91.66%;
+}
+
+.col-offset-0 {
+    margin-left: 0;
+}
 
 /* TODO : Set project to "finished" on github */
