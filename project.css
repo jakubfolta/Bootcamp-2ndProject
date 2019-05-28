@@ -215,12 +215,9 @@
     object-fit: cover;
 }
 
-.image_icon {
-    position: absolute;
-    left: 1px;
-    bottom: 4px;
-
-    font-size: 20px;
+.camera,
+.search {
+    font-size: 10px
 }
 
 .image:hover {
