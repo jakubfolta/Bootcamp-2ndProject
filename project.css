@@ -8,6 +8,7 @@
 
 .head {
     margin: 0 auto;
+    width: 100%;
 }
 
 .container_logo {
@@ -40,7 +41,7 @@
 
 .container {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -183,6 +184,59 @@
     width: 100%;
 }
 
+.col-offset-1 {
+    margin-left: 8.33%;
+}
+
+.col-offset-1 {
+    margin-left: 8.33%;
+}
+
+.col-offset-2 {
+    margin-left: 16.66%;
+}
+
+.col-offset-3 {
+    margin-left: 25%;
+}
+
+.col-offset-4 {
+    margin-left: 33.33%;
+}
+
+.col-offset-5 {
+    margin-left: 41.66%;
+}
+
+.col-offset-6 {
+    margin-left: 50%;
+}
+
+.col-offset-7 {
+    margin-left: 58.33%;
+}
+
+.col-offset-8 {
+    margin-left: 66.66%;
+}
+
+.col-offset-9 {
+    margin-left: 75%;
+}
+
+.col-offset-10 {
+    margin-left: 83.33%;
+}
+
+.col-offset-11 {
+    margin-left: 91.66%;
+}
+
+.col-offset-0 {
+    margin-left: 0;
+}
+
+
 .heading_2 {
     text-transform: uppercase;
 }
@@ -191,7 +245,6 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    height: 200px;
 }
 
 .gallery::before,
@@ -215,13 +268,43 @@
     object-fit: cover;
 }
 
-.camera,
-.search {
-    font-size: 10px
+.rel {
+    position: relative;
 }
 
-.image:hover {
+.layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+}
 
+.camera,
+.search {
+    width: 20px;
+    height: 20px;
+    margin: 50px 10px;
+}
+
+.rel:hover .layer {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s ease;
+}
+
+.team {
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
 }
 
 
