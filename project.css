@@ -371,5 +371,19 @@
     color: #fff;
 }
 
+.numbers {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.number_info {
+    padding-top: 5px;
+    text-transform: uppercase;
+    color: #3ab6e1;
+    font-weight: bold;
+    margin: 0;
+}
+
 
 /* TODO : Set project to "finished" on github */
