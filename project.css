@@ -293,7 +293,8 @@
     margin: 50px 10px;
 }
 
-.rel:hover .layer {
+.rel:hover .layer,
+.rel:hover .position_layer {
     opacity: 1;
     background-color: rgba(0, 0, 0, 0.5);
     transition: 1s ease;
@@ -301,14 +302,14 @@
 
 .team {
     border-radius: 50%;
-    height: 200px;
+    height: 150px;
     width: 80%;
-    object-fit: cover;
+    float: left;
 }
 
-.second_layer {
+.position_layer {
     border-radius: 50%;
-    height: 200px;
+    height: 150px;
     width: 80%;
     position: absolute;
     top: 0;
@@ -319,6 +320,15 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
     opacity: 0;
+}
+
+.job {
+    margin-top: 75px;
+    color: #fff;
+}
+
+.name {
+    width: 80%;
 }
 
 
