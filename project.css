@@ -79,11 +79,10 @@
 
 .main_heading {
     text-transform: uppercase;
-    font-weight: 700;
     color: #fff;
 }
 
-.slogan>.main_heading::first-line {
+.main_heading::first-line {
     font-weight: 400;
 }
 
@@ -117,7 +116,6 @@
 
 .heading_4 {
     text-transform: uppercase;
-    font-weight: 900;
     margin-bottom: 0;
 }
 
@@ -328,10 +326,41 @@
 }
 
 .name {
+    margin-top: 170px;
     width: 80%;
 }
 
+.title_image {
+    width: 100%;
+    vertical-align: bottom;
+}
 
+.background {
+    background-color: #6c6464;
+}
+
+.title {
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin: 0;
+    color: #fff;
+    word-spacing: 6px;
+    letter-spacing: 3px;
+}
+
+.main {
+    text-align: left;
+    padding: 10px 30px;
+}
+
+.side {
+    font-style: italic;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30%;
+}
 
 
 /* TODO : Set project to "finished" on github */
