@@ -107,7 +107,9 @@
     text-align: center;
 }
 
-[class*="fa"] {
+.left,
+.tablet,
+.right {
     font-size: 60px;
     background-color: #000;
     color: #fff;
@@ -126,7 +128,6 @@
 .mid_heading {
     color: #2f9ee1;
     margin-bottom: 0;
-
 }
 
 .paragraph {
@@ -393,12 +394,13 @@
     margin: 0;
     padding: 10px 30px 30px 100px;
 }
+
 .heading_3::after {
     content: "";
     display: inline-block;
     height: 2px;
     width: 80px;
-    border-top: 3px solid #474a4b;
+    border-top: 3px solid #a4b7bd;
     margin-bottom: 4px;
     margin-left: 8px;
 
@@ -430,21 +432,33 @@
 .foot_paragraph {
     color: #fff;
     font-size: 12px;
-    margin: 0 0 5px 5px;
+    margin: 0 0 5px 0;
 }
-
 
 .social_icons {
-
+    margin-top: 20px;
+    position: absolute;
 }
 
-.social {
+i.social {
+    border-radius: 0;
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    width: 30px;
+    padding: 0;
+    background-color: #2fa6cf;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 5px;
 
 }
 
 .footer {
     background-color: #1b1e1f;
     text-align: center;
+    line-height: 50px;
 }
 
 /* TODO : Set project to "finished" on github */
