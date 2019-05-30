@@ -7,10 +7,13 @@
 * HTML5, CSS3
 
 ## Status
-Project is unfinished.<br/>
+Project is finished.<br/>
 
 ## Example to Follow
 ![Example](./images/example.jpg)
+
+## Finished Project
+![Finished](./images/ordered_project.jpg)
 
 ## Sources
 This project was created while going through WebDeveloper Kodilla Bootcamp. 
