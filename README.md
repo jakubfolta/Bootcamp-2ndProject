@@ -1,7 +1,7 @@
 # Project
 > Project based on image from client (learning).
 
-## Check Here ==> https://project-136366.kodilla.com/
+## Check Here ==> https://jakubfolta.github.io/Bootcamp2ndProject/
 
 ## Technologies
 * HTML5, CSS3
