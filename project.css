@@ -385,5 +385,66 @@
     margin: 0;
 }
 
+.foot {
+    background-color: #313234;
+}
+
+.about {
+    margin: 0;
+    padding: 10px 30px 30px 100px;
+}
+.heading_3::after {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 80px;
+    border-top: 3px solid #474a4b;
+    margin-bottom: 4px;
+    margin-left: 8px;
+
+}
+
+.touch {
+    margin: 0;
+    padding: 10px 20px 30px 10px;
+}
+
+.social_media {
+    margin: 0;
+    padding: 10px 100px 30px 30px;
+}
+
+.heading_3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.way {
+    font-weight: 900;
+    margin: 0 5px 5px 0;
+}
+
+.foot_paragraph {
+    color: #fff;
+    font-size: 12px;
+    margin: 0 0 5px 5px;
+}
+
+
+.social_icons {
+
+}
+
+.social {
+
+}
+
+.footer {
+    background-color: #1b1e1f;
+    text-align: center;
+}
 
 /* TODO : Set project to "finished" on github */
