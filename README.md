@@ -1,16 +1,19 @@
 # Project
 > Project based on image from client (learning).
 
-## Check Here ==> https://project-136366.kodilla.com/
+## Check Here ==> https://jakubfolta.github.io/Bootcamp2ndProject/
 
 ## Technologies
 * HTML5, CSS3
 
 ## Status
-Project is unfinished.<br/>
+Project is finished.<br/>
 
 ## Example to Follow
 ![Example](./images/example.jpg)
+
+## Finished Project
+![Finished](./images/ordered_project.jpg)
 
 ## Sources
 This project was created while going through WebDeveloper Kodilla Bootcamp. 
